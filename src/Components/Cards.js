@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect} from "react";
 
 const Cards = () => {
-  const URL = "https://quizqpp-backend.vercel.app/";
+  const URL = "https://quizqpp-backend.vercel.app";
   const [index, setIndex] = useState(0);
   const [choose, setChoose] = useState('');
   const [count, setCount] = useState(0);
