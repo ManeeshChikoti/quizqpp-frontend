@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import axios from "axios";
 
 const EditQuestion = () => {
-  const URL = "https://maneeshsquizapp.herokuapp.com"
+  const URL = "https://quizqpp-backend.vercel.app"
   const [question, setQuestion] = useState([]);
   const [counter, setCounter] = useState(0)
 
