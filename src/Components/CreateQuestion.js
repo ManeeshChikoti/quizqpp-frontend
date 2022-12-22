@@ -3,7 +3,7 @@ import {useFormik} from 'formik';
 import axios from 'axios';
 
 const CreateQuestion = () => {
-    const URL = "https://maneeshsquizapp.herokuapp.com"
+    const URL = "https://quizqpp-backend.vercel.app"
     const formik = useFormik({
         initialValues:{
             question:"",
